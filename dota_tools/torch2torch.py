@@ -10,10 +10,7 @@ if __name__ == '__main__':
     model_path = os.path.join(load_dir, 'model_final.pth')
     # net, loss, optimizer= get_model('test', 'BCELoss')# test train
 
-    torch_dict = torch.load(model_path)['model']##.state_dict() ['state_dict']
-    # print('model layer1:', torch_dict['forw0.0.weight'].shape)# layer0conv_W,forw0.0.weight
-    # print('torch:',  torch_dict['forw1.0.normal1.gama'][0,:,0,0,0])
-    # print('torch:',  torch_dict['forw0.0.bias'])
+    torch_dict = torch.load(model_path)['model']
 
     dict_name = list(torch_dict)
     for i, k in enumerate(dict_name):
