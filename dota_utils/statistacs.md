@@ -40,6 +40,8 @@ img:1411, ins:98990
 
 img:458, ins:28853
 
+train:
+
 | categroy | num |
 | :-: | - |
 | plane ap: |                84.36218879977274  |
@@ -58,3 +60,24 @@ img:458, ins:28853
 | swimming-pool ap: |        55.787295016717074  |
 | helicopter ap: |           87.21904884844182  |
 | map: |                   59.3932098133136  |
+
+val:
+
+| categroy | num |
+| :-: | - |
+| plane ap: |                75.30955368614582  |
+| baseball-diamond ap: |     88.95235780262519  |
+| bridge ap: |               33.79669262036713  |
+| ground-track-field ap: |   59.448845553545816  |
+| small-vehicle ap: |        46.535515718061916  |
+| large-vehicle ap: |        24.331596561091775  |
+| ship ap: |                 25.86073802363511  |
+| tennis-court ap: |         62.25108599830078  |
+| basketball-court ap: |     73.72559148262027  |
+| storage-tank ap: |         100.00000000000003  |
+| soccer-ball-field ap: |    72.445307483585  |
+| roundabout ap: |           90.79822616407984  |
+| harbor ap: |               37.196828087809095  |
+| swimming-pool ap: |        72.84974080435  |
+| helicopter ap: |           73.93048128342247  |
+| map: |                   62.49550408464268  |
