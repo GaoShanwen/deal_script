@@ -39,3 +39,22 @@ img:1411, ins:98990
 | all                    | 10.910477246733443     | 48.81641423768759      | 31.66395175545004      | 8.60915676012893       | 28853 |
 
 img:458, ins:28853
+
+| categroy | num |
+| :-: | - |
+| plane ap: |                84.36218879977274  |
+| baseball-diamond ap: |     87.9623211588021  |
+| bridge ap: |               39.98322326597244  |
+| ground-track-field ap: |   58.98663036727182  |
+| small-vehicle ap: |        34.55760475961887  |
+| large-vehicle ap: |        14.554024149475826  |
+| ship ap: |                 31.6170513171619  |
+| tennis-court ap: |         57.32290308561495  |
+| basketball-court ap: |     57.64993354344053  |
+| storage-tank ap: |         90.68543285740104  |
+| soccer-ball-field ap: |    64.0784695974288  |
+| roundabout ap: |           90.68565248706636  |
+| harbor ap: |               35.446367945517565  |
+| swimming-pool ap: |        55.787295016717074  |
+| helicopter ap: |           87.21904884844182  |
+| map: |                   59.3932098133136  |
