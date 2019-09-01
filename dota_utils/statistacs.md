@@ -165,6 +165,7 @@ val result:
 | Total: |                 99.99999999999687  | 100.00000000000003  |
 
 train result:
+
 | category | mIoU value | mAP value |
 | - | - | - |
 | plane : |                  93.06694520508438  | 89.21865579347038  |
@@ -183,7 +184,9 @@ train result:
 | swimming-pool : |          74.07326278282676  | 71.7031273213893  |
 | helicopter : |             93.30630208286848  | 90.31514788022785  |
 | Total: |                   88.37588007927886  | 82.0984248395885  |
+
 val result:
+
 | category | mIoU value | mAP value |
 | - | - | - |
 | plane : |                  93.13538983141632  | 89.28691097081874  |
