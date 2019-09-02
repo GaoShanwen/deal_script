@@ -110,19 +110,23 @@ def get_pbox(rbox):#, img_height, img_width):
 
     x_list = [pt1[0], pt2[0], pt3[0], pt4[0]]
     y_list = [pt1[1], pt2[1], pt3[1], pt4[1]]
-    arr_x = np.array(x_list)
-    arr_y = np.array(y_list)
-    left_plot_y = min(arr_y[np.where(arr_x == xmin)])
-    left_plot_x = max(arr_x[np.where(arr_y == ymin)])
-    # print(arr_y[np.where(arr_x == xmin)], arr_x[np.where(arr_y == ymin)])
-    # left_plot_y = y_list[x_list.index(xmin)]
-    # left_plot_x = x_list[y_list.index(ymin)]
+    # arr_x = np.array(x_list)
+    # arr_y = np.array(y_list)
+    # left_plot_y = min(arr_y[np.where(arr_x <= (xmin + width*0.02))])
+    # left_plot_x = max(arr_x[np.where(arr_y <= (ymin + high*0.02))])
+    # # print(arr_y[np.where(arr_x == xmin)], arr_x[np.where(arr_y == ymin)])
+    left_plot_y = y_list[x_list.index(xmin)]
+    left_plot_x = x_list[y_list.index(ymin)]
     alpha = (left_plot_y - ymin) / high
     beta = (left_plot_x - xmin) / width
     if max(alpha, beta) < 0.5 or min(alpha, beta) > 0.5:
         thin_flag = True
+        if max(alpha, beta) < 0.01 or min(alpha, beta)>0.99:
+            thin_flag = False
+            # print(rbox)
     else:
         thin_flag = False
+    # print([xmin, ymin, width, high, alpha, thin_flag])
     return [xmin, ymin, width, high, alpha, thin_flag]
 
 
@@ -146,6 +150,7 @@ def pbox2poly(pbox):
             [xmin + beta_get * width, ymin], \
             [xmin + width, ymin + (1 - alpha) * high], \
             [xmin + (1 - beta_get) * width, ymin + high]]
+    # print(beta_get)
     return np.array(poly8)
 
 
@@ -220,6 +225,7 @@ def DOTA2COCO(srcpath, dest_dir, category_list):
             inst_count = inst_count + 1
             single_obj = {}
             single_obj['filename'] = basename
+            # obj['poly'] = [1062.0, 1886.0, 1062.0, 1826.0, 1120.0, 1826.0000000000002, 1120.0, 1886.0000000000002]
             single_obj['bbox'] = pbox2poly(get_pbox(get_rbox(obj['poly'])))
             # pbox, obj['area'] = poly2pbox(obj['poly'])
             # single_obj['bbox'] = pbox2poly(pbox)
@@ -239,9 +245,10 @@ def DOTA2COCO(srcpath, dest_dir, category_list):
             data_dict[obj['name']].append(single_obj)
             # data_dict['annotations']
             # single_obj['id'] = inst_count
+            # break
 
         # if image_id>=2:
-        #     break
+        # break
     # print(data_dict)
     print()
     if 'val' in dest_dir:
