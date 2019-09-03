@@ -121,3 +121,22 @@ val result:
 | swimming-pool : |          90.80973671137606  | 88.41789732203785  |
 | helicopter : |             100.00000000000003  | 94.06059221562609  |
 | Total: |                   97.54751216624199  | 95.56656135665898  |
+
+| category | map |
+| - | - |
+| plane ap: |                88.85368233234533  |
+| baseball-diamond ap: |     60.019772173797925  |
+| bridge ap: |               38.35473784278396  |
+| ground-track-field ap: |   26.340949602981688  |
+| small-vehicle ap: |        45.101319884715664  |
+| large-vehicle ap: |        41.36464032798565  |
+| ship ap: |                 52.800803990879345  |
+| tennis-court ap: |         54.49773323789072  |
+| basketball-court ap: |     9.090909090909092  |
+| storage-tank ap: |         63.379619139212636  |
+| soccer-ball-field ap: |    9.090909090909092  |
+| roundabout ap: |           17.31601731601732  |
+| harbor ap: |               50.295332456404374  |
+| swimming-pool ap: |        33.78977272727273  |
+| helicopter ap: |           9.090909090909092  |
+| map: |                   39.95914055366764  |
