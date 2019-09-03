@@ -112,8 +112,8 @@ def get_pbox(rbox):#, img_height, img_width):
     y_list = [pt1[1], pt2[1], pt3[1], pt4[1]]
     # arr_x = np.array(x_list)
     # arr_y = np.array(y_list)
-    # left_plot_y = min(arr_y[np.where(arr_x <= (xmin + width*0.02))])
-    # left_plot_x = max(arr_x[np.where(arr_y <= (ymin + high*0.02))])
+    # left_plot_y = min(arr_y[np.where(arr_x <= (xmin + width*0.01))])
+    # left_plot_x = max(arr_x[np.where(arr_y <= (ymin + high*0.01))])
     # # print(arr_y[np.where(arr_x == xmin)], arr_x[np.where(arr_y == ymin)])
     left_plot_y = y_list[x_list.index(xmin)]
     left_plot_x = x_list[y_list.index(ymin)]
