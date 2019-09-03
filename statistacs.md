@@ -124,19 +124,19 @@ val result:
 
 | category | map |
 | - | - |
-| plane ap: |                88.85368233234533  |
-| baseball-diamond ap: |     60.019772173797925  |
-| bridge ap: |               38.35473784278396  |
-| ground-track-field ap: |   26.340949602981688  |
-| small-vehicle ap: |        45.101319884715664  |
-| large-vehicle ap: |        41.36464032798565  |
-| ship ap: |                 52.800803990879345  |
-| tennis-court ap: |         54.49773323789072  |
-| basketball-court ap: |     9.090909090909092  |
-| storage-tank ap: |         63.379619139212636  |
-| soccer-ball-field ap: |    9.090909090909092  |
-| roundabout ap: |           17.31601731601732  |
-| harbor ap: |               50.295332456404374  |
-| swimming-pool ap: |        33.78977272727273  |
-| helicopter ap: |           9.090909090909092  |
-| map: |                   39.95914055366764  |
+| plane ap: |                88.85353141277466  |
+| baseball-diamond ap: |     61.314608361598566  |
+| bridge ap: |               39.362629489323965  |
+| ground-track-field ap: |   48.66278609093642  |
+| small-vehicle ap: |        40.27631964922126  |
+| large-vehicle ap: |        50.20473773584908  |
+| ship ap: |                 52.6860305569269  |
+| tennis-court ap: |         81.74054942762844  |
+| basketball-court ap: |     55.82256753803776  |
+| storage-tank ap: |         80.0194489945342  |
+| soccer-ball-field ap: |    64.54107221765665  |
+| roundabout ap: |           65.42106570071306  |
+| harbor ap: |               69.41698839454638  |
+| swimming-pool ap: |        58.51917133372729  |
+| helicopter ap: |           30.895046341251508  |
+| map: |                   59.18243688298175  |
