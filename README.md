@@ -228,3 +228,22 @@ val result:
 | swimming-pool : |          90.90909090909093  | 90.26330243805627  |
 | tennis-court : |           100.00000000000003  | 98.16443480243527  |
 | Total: |                   98.45601692545087  | 95.28720537935644  |
+
+| category | mAP value | mIoU value |
+| - | - | - |
+| plane ap: |                1.6864074677469068  |
+| baseball-diamond ap: |     0.2457002457002457  |
+| bridge ap: |               0.0004887322773457928  |
+| ground-track-field ap: |   0.042283298097251586  |
+| small-vehicle ap: |        0.024146663116900807  |
+| large-vehicle ap: |        0.06739145515990605  |
+| ship ap: |                 0.06390797251957181  |
+| tennis-court ap: |         1.1363636363636365  |
+| basketball-court ap: |     0.5509641873278237  |
+| storage-tank ap: |         0.8658008658008658  |
+| soccer-ball-field ap: |    0.07272727272727274  |
+| roundabout ap: |           0.023736055067647758  |
+| harbor ap: |               0.05248614520137699  |
+| swimming-pool ap: |        0.012626262626262626  |
+| helicopter ap: |           7.003841229193343  |
+| map: |                   0.7405544680578974  |
