@@ -229,8 +229,8 @@ val result:
 | tennis-court : |           100.00000000000003  | 98.16443480243527  |
 | Total: |                   98.45601692545087  | 95.28720537935644  |
 
-| category | mAP value | mIoU value |
-| - | - | - |
+| category | mAP value |
+| - | - |
 | plane ap: |                1.6864074677469068  |
 | baseball-diamond ap: |     0.2457002457002457  |
 | bridge ap: |               0.0004887322773457928  |
