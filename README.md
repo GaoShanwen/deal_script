@@ -231,19 +231,20 @@ val result:
 
 | category | mAP value |
 | - | - |
-| plane ap: |                1.6864074677469068  |
-| baseball-diamond ap: |     0.2457002457002457  |
-| bridge ap: |               0.0004887322773457928  |
-| ground-track-field ap: |   0.042283298097251586  |
-| small-vehicle ap: |        0.024146663116900807  |
-| large-vehicle ap: |        0.06739145515990605  |
-| ship ap: |                 0.06390797251957181  |
-| tennis-court ap: |         1.1363636363636365  |
-| basketball-court ap: |     0.5509641873278237  |
-| storage-tank ap: |         0.8658008658008658  |
-| soccer-ball-field ap: |    0.07272727272727274  |
-| roundabout ap: |           0.023736055067647758  |
-| harbor ap: |               0.05248614520137699  |
-| swimming-pool ap: |        0.012626262626262626  |
-| helicopter ap: |           7.003841229193343  |
-| map: |                   0.7405544680578974  |
+| plane                      | 80.59468573401846  |
+| baseball-diamond           | 56.76228382375614  |
+| bridge                     | 21.024875555300255  |
+| ground-track-field         | 47.78936826375157  |
+| small-vehicle              | 47.19559478789846  |
+| large-vehicle              | 65.90966351420168  |
+| ship                       | 69.69381191224662  |
+| tennis-court               | 89.57117775662218  |
+| basketball-court           | 49.68441283874687  |
+| storage-tank               | 77.24522497660308  |
+| soccer-ball-field          | 54.2444824134105  |
+| roundabout                 | 54.53260089376243  |
+| harbor                     | 44.973563346593856  |
+| swimming-pool              | 45.18827367581119  |
+| helicopter                 | 29.831641439318414  |
+| map:                       | 55.61611072880278  |
+
