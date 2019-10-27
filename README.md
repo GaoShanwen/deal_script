@@ -231,21 +231,21 @@ val result:
 
 | category | mAP value |
 | - | - |
-| plane                      | 81.26092026951859  |
-| baseball-diamond           | 65.48216798676943  |
+| plane                      | 88.13522004065713  |
+| baseball-diamond           | 69.05510667598719  |
 | bridge                     | 33.24379200917545  |
 | ground-track-field         | 57.07805811570776  |
 | small-vehicle              | 51.72184179198067  |
 | large-vehicle              | 67.20259895964557  |
 | ship                       | 69.68734548862268  |
 | tennis-court               | 90.78805809575043  |
-| basketball-court           | 56.71661671661672  |
+| basketball-court           | 58.106615118917404  |
 | storage-tank               | 79.80297574070985  |
 | soccer-ball-field          | 58.04399183136013  |
 | roundabout                 | 60.3104642317425  |
 | harbor                     | 54.662844521510976  |
-| swimming-pool              | 51.93362314700689  |
-| helicopter                 | 41.15984008886822  |
-| mAP                        | 61.27300926633239  |
+| swimming-pool              | 55.495153080488045  |
+| helicopter                 | 41.95984008886822  |
+| mAP                        | 62.35292705274159  |
 
 
