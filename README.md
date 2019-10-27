@@ -1,19 +1,19 @@
 
 |||
 |:-:|:-:|
-| plane                      | 80.99182539178794  |
-| baseball-diamond           | 55.291882324689446  |
-| bridge                     | 17.149992992717817  |
-| ground-track-field         | 38.24861693112117  |
-| small-vehicle              | 44.33277747593316  |
-| large-vehicle              | 58.07591335648028  |
-| ship                       | 59.71056688644356  |
-| tennis-court               | 81.75762955851613  |
-| basketball-court           | 48.73970758017139  |
-| storage-tank               | 77.19076395515802  |
-| soccer-ball-field          | 52.74351313787934  |
-| roundabout                 | 52.141637374499126  |
-| harbor                     | 35.77363830567336  |
-| swimming-pool              | 47.024157420284155  |
-| helicopter                 | 13.407076214464663  |
-| mAP                        | 50.83864659372131  |
+| plane                      | 88.88399156314829  |
+| baseball-diamond           | 73.98254985331724  |
+| bridge                     | 38.2106711876925  |
+| ground-track-field         | 64.73167092760076  |
+| small-vehicle              | 53.00130978665187  |
+| large-vehicle              | 67.89778165043374  |
+| ship                       | 70.96860718656863  |
+| tennis-court               | 90.78805809575043  |
+| basketball-court           | 60.03718016875912  |
+| storage-tank               | 80.36010242334179  |
+| soccer-ball-field          | 59.67792309425282  |
+| roundabout                 | 64.44193529569804  |
+| harbor                     | 55.5070865628237  |
+| swimming-pool              | 56.99700292586648  |
+| helicopter                 | 43.16236149804939  |
+| mAP                        | 64.57654881466364  |
