@@ -19,6 +19,7 @@
 | mAP                        | 64.57654881466364  |
 
 val result:
+
 | category | mAP value | mIoU value |
 | - | - | - |
 | plane : |                  100.00000000000003  | 95.85007911857525  |
