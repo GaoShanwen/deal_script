@@ -18,6 +18,25 @@
 | helicopter                 | 43.16236149804939  |
 | mAP                        | 64.57654881466364  |
 
+|||
+|:-:|:-:|
+| plane                      | 88.42495926892107  |
+| baseball-diamond           | 69.05510667598719  |
+| bridge                     | 33.89580293655898  |
+| ground-track-field         | 58.83306979186727  |
+| small-vehicle              | 52.035181806809796  |
+| large-vehicle              | 67.5216087896271  |
+| ship                       | 69.98203620520108  |
+| tennis-court               | 90.78805809575043  |
+| basketball-court           | 58.106615118917404  |
+| storage-tank               | 79.8557195010207  |
+| soccer-ball-field          | 57.206815722444894  |
+| roundabout                 | 61.044203044711395  |
+| harbor                     | 55.29169750146753  |
+| swimming-pool              | 55.59006400558201  |
+| helicopter                 | 42.19076792391977  |
+| mAP                        | 62.6547804259191  |
+
 | category | mAP value | mIoU value |
 | - | - | - |
 | plane : |                  90.90909090909093  | 95.25537911959245  |
