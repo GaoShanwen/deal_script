@@ -1,7 +1,5 @@
 import torch
 import os
-import sys
-sys.path.append('../Pet-dev-ori')
 # from collections import OrderedDict
 import numpy as np
 
