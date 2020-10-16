@@ -1,1 +1,1 @@
-## A toolsbox for deal text, picture or model files.
+## A toolsbox for dealing text, picture or model files.
